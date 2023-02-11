@@ -1,0 +1,302 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    margin: auto;
+}
+
+.top{
+    height: 50px;
+    background:  #0e2436;
+    position: relative;
+}
+
+.capa{
+    width: 100%;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 90px 0 0;
+    padding: 13px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+    transition: .5s all;
+}
+
+.header-nav :hover{
+    color: white;
+    transition: .5s all;
+}
+
+.familia{
+    padding: 50px;
+    text-align: center;
+}
+
+.familia h1{
+    color: #163e5f;
+    font-size: 36px;
+
+}
+
+.familia p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.kris-text{
+    padding: 2px;
+    text-align: center;
+}
+
+.kris-text h2{
+    color: #163e5f;
+    font-size: 36px;
+    display: inline-block;
+    padding-left: 2px;
+}
+
+.kris-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-1{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-kris{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-kris img{
+    width: 100%;
+    height: 100%;
+}
+
+.kourt-text{
+    padding: 2px;
+    text-align: center;
+}
+   
+.kourt-text h2{
+    color:#163e5f;
+    display: inline-block;
+    padding-left: 2px;
+}
+
+.kourt-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-2{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-kourt{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-kourt img{
+    height: 100%;
+    width: 100%;
+}
+    
+.kim-text{
+    padding-left: 2px;
+    text-align: center;
+}
+
+.kim-text h2{
+    color: #163e5f;
+    display: inline-block;
+    padding: 2px;
+}
+
+.kim-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-3{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-kim{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-kim img{
+    width: 100%;
+    height: 100%;
+}
+
+.khloe-text{
+    padding: 2px;
+    text-align: center;
+}
+   
+.khloe-text h2{
+    color:#163e5f;
+    display: inline-block;
+    padding-left: 2px;
+}
+
+.khloe-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-4{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-khloe{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-khloe img{
+    height: 100%;
+    width: 100%;
+}
+
+.ken-text{
+    padding: 2px;
+    text-align: center;
+}
+   
+.ken-text h2{
+    color:#163e5f;
+    display: inline-block;
+    padding-left: 2px;
+}
+
+.ken-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-5{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-ken{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-ken img{
+    height: 100%;
+    width: 100%;
+}
+
+.kylie-text{
+    padding: 2px;
+    text-align: center;
+}
+   
+.kylie-text h2{
+    color:#163e5f;
+    display: inline-block;
+    padding-left: 2px;
+}
+
+.kylie-text p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+    display: inline-block;
+    width: 95%;
+}
+
+.gallery-6{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-kylie{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 10px;
+}
+
+.gallery-kylie img{
+    height: 100%;
+    width: 100%;
+}
+
+.rodapé{
+    background: #0e2436;
+    padding: 15px;
+    font-size: 12px;
+    color: #425564;
+    letter-spacing: 5px;
+    text-align: center;
+}
